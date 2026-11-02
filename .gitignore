@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+configs/*.json
+outputs/*
+data/raw/*
+*.pt
