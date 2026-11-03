@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "calibration_type": "floor_plane_homography",
+  "source": "data/raw/match.mp4",
+  "frame_index": 100,
+  "source_fps": 30.0,
+  "image_width_px": 1920,
+  "image_height_px": 1080,
+  "source_points_px": [
+    [
+      4.5,
+      274.5
+    ],
+    [
+      1903.5,
+      273.0
+    ],
+    [
+      1905.0,
+      1047.0
+    ],
+    [
+      1.5,
+      1023.0
+    ]
+  ],
+  "point_order": [
+    "FLOOR TOP-LEFT",
+    "FLOOR TOP-RIGHT",
+    "FLOOR BOTTOM-RIGHT",
+    "FLOOR BOTTOM-LEFT"
+  ],
+  "homography_image_to_floor": [
+    [
+      0.0005450169637709771,
+      2.18443672854099e-06,
+      -0.0030522042189538986
+    ],
+    [
+      1.058789233047753e-06,
+      0.0013404271690383596,
+      -0.36795202245257846
+    ],
+    [
+      1.7918946516255876e-05,
+      3.205944513918384e-06,
+      1.0
+    ]
+  ],
+  "coordinate_units": "normalized",
+  "metric_calibrated": false,
+  "floor_rectangle_width_m": null,
+  "floor_rectangle_depth_m": null,
+  "map_width": 1000,
+  "map_height": 600,
+  "target_width": 1.0,
+  "target_depth": 1.0,
+  "warning": "Normalized spatial map only. Do not report metres, speed, or physical distance."
+}

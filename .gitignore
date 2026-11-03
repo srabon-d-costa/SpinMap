@@ -1,7 +1,21 @@
+@'
+# Python environment
 .venv/
 __pycache__/
-*.pyc
-configs/*.json
-outputs/*
-data/raw/*
+*.py[cod]
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Generated results
+outputs/
+
+# Original video files
+data/raw/
+
+# Model weights
 *.pt
+'@ | Set-Content -Encoding utf8 .gitignore

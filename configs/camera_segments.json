@@ -1,0 +1,39 @@
+{
+    "schema_version": 1,
+    "source": "data/raw/match.mp4",
+    "fps": 30.0,
+    "total_frames": 665,
+    "cuts_after_frames": [
+        191,
+        276,
+        381,
+        536
+    ],
+    "segments": [
+        {
+            "id": "S1",
+            "start": 0,
+            "end": 190
+        },
+        {
+            "id": "S2",
+            "start": 191,
+            "end": 275
+        },
+        {
+            "id": "S3",
+            "start": 276,
+            "end": 380
+        },
+        {
+            "id": "S4",
+            "start": 381,
+            "end": 535
+        },
+        {
+            "id": "S5",
+            "start": 536,
+            "end": 664
+        }
+    ]
+}

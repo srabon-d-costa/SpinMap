@@ -1,0 +1,57 @@
+{
+  "camera_source": "data/raw/match.mp4",
+  "source_resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "corner_order": [
+    "far_left",
+    "far_right",
+    "near_right",
+    "near_left"
+  ],
+  "table_corners_px": [
+    [
+      558.0,
+      520.5
+    ],
+    [
+      1335.0,
+      535.5
+    ],
+    [
+      1477.5,
+      655.5
+    ],
+    [
+      361.5,
+      630.0
+    ]
+  ],
+  "table_dimensions_m": {
+    "width": 1.525,
+    "length": 2.74
+  },
+  "warp_size_px": {
+    "width": 610,
+    "height": 1096
+  },
+  "H_image_to_table_pixels": [
+    [
+      -0.7917027627180199,
+      -1.420726875562473,
+      1181.258480326922
+    ],
+    [
+      0.2722929976100284,
+      -14.104777276199504,
+      7189.597079595445
+    ],
+    [
+      4.412004969316794e-05,
+      -0.003929032799224302,
+      1.0
+    ]
+  ],
+  "scope": "tabletop plane only; DO NOT use for player floor positions"
+}
